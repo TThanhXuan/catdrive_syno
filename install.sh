@@ -29,7 +29,7 @@ exit 1
 function install() {
     cd /tmp/
     send_msg "downloading full.bin"
-    wget -N --no-check-certificate -O full.bin https://raw.githubusercontent.com/TThanhXuan/catdrive_syno/master/full.bin
+    wget -N --no-check-certificate -O full.bin https://raw.githubusercontent.com/roadwide/catdrive-syno/master/full.bin
     on_error_exit "download full.bin failed"
     
     send_msg "start writing mdt0"
